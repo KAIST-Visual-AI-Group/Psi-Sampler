@@ -5,12 +5,15 @@
 
 </div>
 
+![teaser](assets/teaser.png)
+
 <!-- Authors -->
 <p align="center">
   <a href="https://github.com/taehoon-yoon">Taehoon Yoon*</a>,
   <a href="https://cactus-save-5ac.notion.site/4020147bcaef4257888b08b0a4ef238d">Yunhong Min*</a>,
   <a href="https://32v.github.io/">Kyeongmin Yeo*</a>,
   <a href="https://mhsung.github.io">Minhyuk Sung</a>
+  (* equal contribution)
 </p>
 
 ## Introduction
