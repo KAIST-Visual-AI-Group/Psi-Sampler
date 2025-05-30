@@ -1,7 +1,7 @@
 <h1 align="center">Ψ-Sampler</h1>
 <div align="center">
   
-## Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment
+## Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score-Based Generative Models
 
 </div>
 
