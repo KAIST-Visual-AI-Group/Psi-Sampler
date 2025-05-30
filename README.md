@@ -5,6 +5,8 @@
 
 </div>
 
+![teaser](assets/teaser.png)
+
 <!-- Authors -->
 <p align="center">
   <a href="https://github.com/taehoon-yoon">Taehoon Yoon*</a>,
