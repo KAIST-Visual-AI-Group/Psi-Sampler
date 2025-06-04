@@ -7,6 +7,15 @@
 
 ![teaser](assets/teaser.png)
 
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2506.01320">
+    <img src="https://img.shields.io/badge/arXiv-2506.01320-red" alt="arXiv 2506.01320" />
+  </a>
+  <a href="https://psi-sampler.github.io/">
+    <img src="https://img.shields.io/badge/Website-psi_sampler.github.io-blue" alt="Website" />
+  </a>
+</p>
 <!-- Authors -->
 <p align="center">
   <a href="https://github.com/taehoon-yoon">Taehoon Yoon*</a>,
