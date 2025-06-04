@@ -24,3 +24,16 @@ We propose **Ψ-Sampler**, an SMC-based framework that improves inference-time r
 
 ## Release
 Code will be released soon.
+
+##  Citation
+```
+@misc{yoon2025psisamplerinitialparticlesampling,
+      title={$\Psi$-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models}, 
+      author={Taehoon Yoon and Yunhong Min and Kyeongmin Yeo and Minhyuk Sung},
+      year={2025},
+      eprint={2506.01320},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.01320}, 
+}
+```
