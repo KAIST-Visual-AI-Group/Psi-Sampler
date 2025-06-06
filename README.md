@@ -36,13 +36,10 @@ Code will be released soon.
 
 ##  Citation
 ```
-@misc{yoon2025psisamplerinitialparticlesampling,
-      title={$\Psi$-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models}, 
-      author={Taehoon Yoon and Yunhong Min and Kyeongmin Yeo and Minhyuk Sung},
-      year={2025},
-      eprint={2506.01320},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2506.01320}, 
+@article{yoon2025psi,
+  title={Psi-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models},
+  author={Yoon, Taehoon and Min, Yunhong and Yeo, Kyeongmin and Sung, Minhyuk},
+  journal={arXiv preprint arXiv:2506.01320},
+  year={2025}
 }
 ```
