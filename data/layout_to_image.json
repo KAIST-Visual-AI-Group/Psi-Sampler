@@ -1,0 +1,1497 @@
+[
+    {
+        "prompt": "a horse beneath a cat.",
+        "phrases": [
+            "cat",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                250,
+                50,
+                400,
+                200
+            ],
+            [
+                230,
+                220,
+                430,
+                480
+            ]
+        ],
+        "relations": [
+            "beneath",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a cat on a chair.",
+        "phrases": [
+            "cat",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                120,
+                180,
+                300,
+                300
+            ],
+            [
+                90,
+                240,
+                330,
+                400
+            ]
+        ],
+        "relations": [
+            "on",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a person and horse on the right of a cat and beneath a banana.",
+        "phrases": [
+            "person",
+            "horse",
+            "cat",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                256,
+                225,
+                400,
+                400
+            ],
+            [
+                410,
+                225,
+                512,
+                400
+            ],
+            [
+                256,
+                120,
+                400,
+                224
+            ],
+            [
+                256,
+                0,
+                512,
+                119
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "beneath"
+        ]
+    },
+    {
+        "prompt": "a car among banana and dog.",
+        "phrases": [
+            "car",
+            "banana",
+            "dog"
+        ],
+        "bboxes": [
+            [
+                171,
+                193,
+                341,
+                319
+            ],
+            [
+                38,
+                102,
+                168,
+                258
+            ],
+            [
+                349,
+                214,
+                477,
+                290
+            ]
+        ],
+        "relations": [
+            "among",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a cat above a car and over a chair.",
+        "phrases": [
+            "cat",
+            "car",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                220,
+                20,
+                320,
+                120
+            ],
+            [
+                150,
+                150,
+                390,
+                260
+            ],
+            [
+                180,
+                300,
+                355,
+                420
+            ]
+        ],
+        "relations": [
+            "above",
+            "over"
+        ]
+    },
+    {
+        "prompt": "a horse above a banana.",
+        "phrases": [
+            "horse",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                197,
+                52,
+                383,
+                219
+            ],
+            [
+                212,
+                270,
+                342,
+                365
+            ]
+        ],
+        "relations": [
+            "above",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair on the right of a banana.",
+        "phrases": [
+            "chair",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                270,
+                110,
+                420,
+                320
+            ],
+            [
+                70,
+                170,
+                180,
+                250
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair on the right of a car.",
+        "phrases": [
+            "chair",
+            "car"
+        ],
+        "bboxes": [
+            [
+                300,
+                130,
+                450,
+                276
+            ],
+            [
+                50,
+                160,
+                280,
+                350
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a dog on the right of a chair and on a cat.",
+        "phrases": [
+            "dog",
+            "chair",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                300,
+                100,
+                450,
+                210
+            ],
+            [
+                100,
+                120,
+                250,
+                280
+            ],
+            [
+                200,
+                200,
+                400,
+                400
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "on"
+        ]
+    },
+    {
+        "prompt": "a car on the right of a chair.",
+        "phrases": [
+            "car",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                268,
+                105,
+                487,
+                287
+            ],
+            [
+                43,
+                95,
+                217,
+                254
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a horse on the left of a cat.",
+        "phrases": [
+            "horse",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                50,
+                120,
+                300,
+                450
+            ],
+            [
+                320,
+                150,
+                480,
+                300
+            ]
+        ],
+        "relations": [
+            "on the left of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a person above a chair and on a horse.",
+        "phrases": [
+            "person",
+            "chair",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                120,
+                23,
+                255,
+                180
+            ],
+            [
+                150,
+                240,
+                370,
+                500
+            ],
+            [
+                30,
+                290,
+                470,
+                498
+            ]
+        ],
+        "relations": [
+            "above",
+            "on"
+        ]
+    },
+    {
+        "prompt": "a chair on the right of a airplane.",
+        "phrases": [
+            "chair",
+            "airplane"
+        ],
+        "bboxes": [
+            [
+                273,
+                105,
+                426,
+                298
+            ],
+            [
+                64,
+                58,
+                253,
+                298
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a cat on the left of a horse.",
+        "phrases": [
+            "cat",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                50,
+                150,
+                150,
+                300
+            ],
+            [
+                200,
+                120,
+                400,
+                385
+            ]
+        ],
+        "relations": [
+            "on the left of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a person on a cat and on the left of a dog.",
+        "phrases": [
+            "person",
+            "cat",
+            "dog"
+        ],
+        "bboxes": [
+            [
+                50,
+                45,
+                200,
+                220
+            ],
+            [
+                60,
+                150,
+                205,
+                350
+            ],
+            [
+                250,
+                120,
+                400,
+                300
+            ]
+        ],
+        "relations": [
+            "on",
+            "on the left of"
+        ]
+    },
+    {
+        "prompt": "a dog over a cat.",
+        "phrases": [
+            "dog",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                210,
+                102,
+                302,
+                194
+            ],
+            [
+                210,
+                194,
+                302,
+                286
+            ]
+        ],
+        "relations": [
+            "over",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a person above a cat.",
+        "phrases": [
+            "person",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                100,
+                50,
+                300,
+                220
+            ],
+            [
+                90,
+                250,
+                310,
+                400
+            ]
+        ],
+        "relations": [
+            "above",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a banana on the left of a chair.",
+        "phrases": [
+            "banana",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                50,
+                150,
+                150,
+                250
+            ],
+            [
+                200,
+                100,
+                350,
+                350
+            ]
+        ],
+        "relations": [
+            "on the left of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a car and cat beneath a airplane and below a banana.",
+        "phrases": [
+            "car",
+            "cat",
+            "airplane",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                62,
+                243,
+                184,
+                366
+            ],
+            [
+                240,
+                243,
+                362,
+                366
+            ],
+            [
+                100,
+                93,
+                290,
+                188
+            ],
+            [
+                140,
+                30,
+                260,
+                93
+            ]
+        ],
+        "relations": [
+            "beneath",
+            "below"
+        ]
+    },
+    {
+        "prompt": "a banana above a dog and on a horse.",
+        "phrases": [
+            "banana",
+            "dog",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                240,
+                95,
+                290,
+                147
+            ],
+            [
+                190,
+                220,
+                325,
+                315
+            ],
+            [
+                135,
+                180,
+                370,
+                430
+            ]
+        ],
+        "relations": [
+            "above",
+            "on"
+        ]
+    },
+    {
+        "prompt": "a chair on a airplane and on the right of a cat.",
+        "phrases": [
+            "chair",
+            "airplane",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                45,
+                112,
+                200,
+                330
+            ],
+            [
+                215,
+                20,
+                470,
+                250
+            ],
+            [
+                10,
+                270,
+                90,
+                400
+            ]
+        ],
+        "relations": [
+            "on",
+            "on the right of"
+        ]
+    },
+    {
+        "prompt": "a person and dog under a horse and over a cat.",
+        "phrases": [
+            "person",
+            "dog",
+            "horse",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                65,
+                210,
+                190,
+                330
+            ],
+            [
+                200,
+                210,
+                325,
+                300
+            ],
+            [
+                110,
+                100,
+                275,
+                210
+            ],
+            [
+                140,
+                330,
+                255,
+                465
+            ]
+        ],
+        "relations": [
+            "under",
+            "over"
+        ]
+    },
+    {
+        "prompt": "a dog above a car and under a banana.",
+        "phrases": [
+            "dog",
+            "car",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                213,
+                130,
+                300,
+                224
+            ],
+            [
+                179,
+                240,
+                334,
+                314
+            ],
+            [
+                224,
+                40,
+                279,
+                120
+            ]
+        ],
+        "relations": [
+            "above",
+            "under"
+        ]
+    },
+    {
+        "prompt": "a person and a dog in the middle of banana and cat.",
+        "phrases": [
+            "person",
+            "dog",
+            "banana",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                180,
+                100,
+                280,
+                265
+            ],
+            [
+                295,
+                100,
+                395,
+                265
+            ],
+            [
+                80,
+                180,
+                170,
+                251
+            ],
+            [
+                415,
+                180,
+                505,
+                251
+            ]
+        ],
+        "relations": [
+            "in the middle of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a car on the left of a banana.",
+        "phrases": [
+            "car",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                50,
+                170,
+                260,
+                320
+            ],
+            [
+                320,
+                180,
+                480,
+                240
+            ]
+        ],
+        "relations": [
+            "on the left of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair beneath a person.",
+        "phrases": [
+            "person",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                140,
+                50,
+                372,
+                252
+            ],
+            [
+                140,
+                253,
+                372,
+                450
+            ]
+        ],
+        "relations": [
+            "beneath",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a car over a horse.",
+        "phrases": [
+            "car",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                135,
+                60,
+                377,
+                190
+            ],
+            [
+                110,
+                210,
+                392,
+                410
+            ]
+        ],
+        "relations": [
+            "over",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a airplane on a person and over a chair.",
+        "phrases": [
+            "airplane",
+            "person",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                175,
+                60,
+                337,
+                140
+            ],
+            [
+                190,
+                210,
+                330,
+                500
+            ],
+            [
+                30,
+                300,
+                170,
+                460
+            ]
+        ],
+        "relations": [
+            "on",
+            "over"
+        ]
+    },
+    {
+        "prompt": "a car and banana over a horse and on the right of a dog.",
+        "phrases": [
+            "car",
+            "banana",
+            "horse",
+            "dog"
+        ],
+        "bboxes": [
+            [
+                134,
+                22,
+                378,
+                178
+            ],
+            [
+                389,
+                5,
+                507,
+                90
+            ],
+            [
+                49,
+                244,
+                463,
+                443
+            ],
+            [
+                12,
+                176,
+                210,
+                348
+            ]
+        ],
+        "relations": [
+            "over",
+            "on the right of"
+        ]
+    },
+    {
+        "prompt": "a person and airplane over a car and under a chair.",
+        "phrases": [
+            "person",
+            "airplane",
+            "car",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                100,
+                150,
+                200,
+                250
+            ],
+            [
+                240,
+                100,
+                390,
+                170
+            ],
+            [
+                110,
+                275,
+                280,
+                350
+            ],
+            [
+                210,
+                400,
+                380,
+                500
+            ]
+        ],
+        "relations": [
+            "over",
+            "under"
+        ]
+    },
+    {
+        "prompt": "a dog on a airplane.",
+        "phrases": [
+            "dog",
+            "airplane"
+        ],
+        "bboxes": [
+            [
+                120,
+                212,
+                243,
+                386
+            ],
+            [
+                29,
+                95,
+                480,
+                402
+            ]
+        ],
+        "relations": [
+            "on",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair above a horse.",
+        "phrases": [
+            "chair",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                185,
+                30,
+                339,
+                198
+            ],
+            [
+                145,
+                280,
+                384,
+                467
+            ]
+        ],
+        "relations": [
+            "above",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair above a banana.",
+        "phrases": [
+            "chair",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                114,
+                41,
+                398,
+                200
+            ],
+            [
+                178,
+                258,
+                334,
+                452
+            ]
+        ],
+        "relations": [
+            "above",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a horse on the right of a airplane.",
+        "phrases": [
+            "horse",
+            "airplane"
+        ],
+        "bboxes": [
+            [
+                270,
+                120,
+                440,
+                330
+            ],
+            [
+                20,
+                80,
+                250,
+                310
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a person on the left of a car.",
+        "phrases": [
+            "person",
+            "car"
+        ],
+        "bboxes": [
+            [
+                50,
+                150,
+                200,
+                350
+            ],
+            [
+                240,
+                130,
+                480,
+                350
+            ]
+        ],
+        "relations": [
+            "on the left of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a car and airplane above a horse and on the right of a dog.",
+        "phrases": [
+            "car",
+            "airplane",
+            "horse",
+            "dog"
+        ],
+        "bboxes": [
+            [
+                151,
+                212,
+                334,
+                295
+            ],
+            [
+                180,
+                30,
+                400,
+                191
+            ],
+            [
+                124,
+                315,
+                312,
+                438
+            ],
+            [
+                16,
+                218,
+                143,
+                372
+            ]
+        ],
+        "relations": [
+            "above",
+            "on the right of"
+        ]
+    },
+    {
+        "prompt": "a car and chair below a horse and beneath a dog.",
+        "phrases": [
+            "car",
+            "chair",
+            "horse",
+            "dog"
+        ],
+        "bboxes": [
+            [
+                50,
+                150,
+                200,
+                250
+            ],
+            [
+                250,
+                150,
+                400,
+                250
+            ],
+            [
+                120,
+                30,
+                320,
+                120
+            ],
+            [
+                50,
+                0,
+                250,
+                30
+            ]
+        ],
+        "relations": [
+            "below",
+            "beneath"
+        ]
+    },
+    {
+        "prompt": "a cat over a dog.",
+        "phrases": [
+            "cat",
+            "dog"
+        ],
+        "bboxes": [
+            [
+                150,
+                100,
+                300,
+                250
+            ],
+            [
+                110,
+                260,
+                300,
+                400
+            ]
+        ],
+        "relations": [
+            "over",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair on a cat.",
+        "phrases": [
+            "chair",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                95,
+                93,
+                279,
+                357
+            ],
+            [
+                24,
+                250,
+                380,
+                450
+            ]
+        ],
+        "relations": [
+            "on",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a banana on the right of a cat and under a car.",
+        "phrases": [
+            "banana",
+            "cat",
+            "car"
+        ],
+        "bboxes": [
+            [
+                315,
+                230,
+                390,
+                280
+            ],
+            [
+                160,
+                200,
+                300,
+                290
+            ],
+            [
+                175,
+                80,
+                420,
+                195
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "under"
+        ]
+    },
+    {
+        "prompt": "a person over a cat and above a chair.",
+        "phrases": [
+            "person",
+            "cat",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                215,
+                40,
+                397,
+                210
+            ],
+            [
+                215,
+                240,
+                397,
+                365
+            ],
+            [
+                190,
+                385,
+                420,
+                497
+            ]
+        ],
+        "relations": [
+            "over",
+            "above"
+        ]
+    },
+    {
+        "prompt": "a car and a banana in the middle of dog and chair.",
+        "phrases": [
+            "car",
+            "banana",
+            "dog",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                94,
+                129,
+                225,
+                280
+            ],
+            [
+                240,
+                129,
+                285,
+                165
+            ],
+            [
+                7,
+                205,
+                110,
+                330
+            ],
+            [
+                318,
+                205,
+                405,
+                330
+            ]
+        ],
+        "relations": [
+            "in the middle of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a banana on a chair.",
+        "phrases": [
+            "banana",
+            "chair"
+        ],
+        "bboxes": [
+            [
+                182,
+                180,
+                312,
+                240
+            ],
+            [
+                70,
+                245,
+                380,
+                485
+            ]
+        ],
+        "relations": [
+            "on",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a chair beneath a person and above a horse.",
+        "phrases": [
+            "person",
+            "chair",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                180,
+                72,
+                332,
+                221
+            ],
+            [
+                157,
+                227,
+                350,
+                369
+            ],
+            [
+                120,
+                386,
+                387,
+                500
+            ]
+        ],
+        "relations": [
+            "beneath",
+            "above"
+        ]
+    },
+    {
+        "prompt": "a car on the right of a chair and below a cat.",
+        "phrases": [
+            "car",
+            "chair",
+            "cat"
+        ],
+        "bboxes": [
+            [
+                350,
+                230,
+                480,
+                350
+            ],
+            [
+                100,
+                200,
+                230,
+                300
+            ],
+            [
+                200,
+                50,
+                330,
+                150
+            ]
+        ],
+        "relations": [
+            "on the right of",
+            "below"
+        ]
+    },
+    {
+        "prompt": "a cat on a banana.",
+        "phrases": [
+            "cat",
+            "banana"
+        ],
+        "bboxes": [
+            [
+                120,
+                130,
+                252,
+                293
+            ],
+            [
+                210,
+                275,
+                312,
+                352
+            ]
+        ],
+        "relations": [
+            "on",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a cat on the left of a car.",
+        "phrases": [
+            "cat",
+            "car"
+        ],
+        "bboxes": [
+            [
+                20,
+                112,
+                250,
+                350
+            ],
+            [
+                265,
+                95,
+                500,
+                325
+            ]
+        ],
+        "relations": [
+            "on the left of",
+            "none"
+        ]
+    },
+    {
+        "prompt": "a dog beneath a chair and under a person.",
+        "phrases": [
+            "dog",
+            "chair",
+            "person"
+        ],
+        "bboxes": [
+            [
+                200,
+                300,
+                350,
+                450
+            ],
+            [
+                175,
+                180,
+                375,
+                280
+            ],
+            [
+                150,
+                50,
+                400,
+                200
+            ]
+        ],
+        "relations": [
+            "beneath",
+            "under"
+        ]
+    },
+    {
+        "prompt": "a person over a dog and on a horse.",
+        "phrases": [
+            "person",
+            "dog",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                180,
+                90,
+                355,
+                220
+            ],
+            [
+                170,
+                330,
+                399,
+                460
+            ],
+            [
+                100,
+                190,
+                470,
+                470
+            ]
+        ],
+        "relations": [
+            "over",
+            "on"
+        ]
+    },
+    {
+        "prompt": "a person and chair beneath a airplane and on a horse.",
+        "phrases": [
+            "person",
+            "chair",
+            "airplane",
+            "horse"
+        ],
+        "bboxes": [
+            [
+                80,
+                250,
+                190,
+                400
+            ],
+            [
+                200,
+                250,
+                310,
+                400
+            ],
+            [
+                0,
+                0,
+                512,
+                150
+            ],
+            [
+                50,
+                160,
+                350,
+                250
+            ]
+        ],
+        "relations": [
+            "beneath",
+            "on"
+        ]
+    }
+]
