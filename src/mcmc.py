@@ -98,22 +98,17 @@ class MCMC(ABC):
     @dataclass
     class Config():
         model: str = "flux"
-        step_size: float = 0.1
-        num_mcmc_steps: int = 25
-        num_particles: int = 1
+        step_size: float = 0.5
+        num_mcmc_steps: int = 50
+        num_particles: int = 20
         num_chains: int = 5
-        burn_in : int = 25
-        alpha_mcmc: float = 1e-5
+        burn_in : int = 50
+        alpha_mcmc: float = 0.1
         custom_call_function_name: str = None
         mcmc_scheduler: str = "uniform"
         
-        # For Triangle SMC
-        num_inference_steps: int = 50
-        use_triangle: bool = False
-
-        reno_reg: bool = False
-        save_mcmc: bool = False
-        save_mcmc_dir: str = None
+        save_tweedies: bool = False
+        misc_dir: str = None
 
     @abstractmethod
     def __init__(self, CFG):
@@ -137,19 +132,19 @@ class MCMC(ABC):
         return self.cfg.step_size * step_scale, mh_bool
 
     def get_grad_reward_func(self, reward_model, pipe):
-        def grad_reward_func(latents, pipe, save_tweedies=False, save_dir=None, reno_reg=False, **kwargs):
+        def grad_reward_func(latents, pipe, save_tweedies=False, save_dir=None, **kwargs):
             """
             NOTE: It returns reward and gradient of reward not the ones divided with alpha_mcmc.
             It is your responsibility to divide them with alpha_mcmc if you want to use them in the MCMC.
             """
-            init_t = torch.tensor([1.0], device=latents.device, dtype=torch.float32).expand(latents.shape[0]) if self.cfg.model == "flux" else torch.tensor([1.57080], device=latents.device, dtype=torch.float32).expand(latents.shape[0]) # for sana
-            reward_val, grad_reward, _, decoded_tweedies = pipe.get_reward_grad_vel_tweedies(latents, reward_model, init_t, reno_reg)
+            init_t = torch.tensor([1.0], device=latents.device, dtype=torch.float32).expand(latents.shape[0])
+            reward_val, grad_reward, _, decoded_tweedies = pipe.get_reward_grad_vel_tweedies(latents, reward_model, init_t)
             
             cur_mcmc_step = kwargs.get("mcmc_idx", None)
             if save_tweedies and cur_mcmc_step is not None:
                 if save_dir is None:
                     raise ValueError("save_dir must be provided when save_tweedies is True")
-                os.makedirs(save_dir, exist_ok=True)
+                os.makedirs(os.path.join(save_dir, "mcmc_tweedies"), exist_ok=True)
 
                 decoded_latents = pipe.decode_latents(latents.detach())
                 target_size = (256, 256)
@@ -161,10 +156,10 @@ class MCMC(ABC):
                     decoded_tweedies_img = tensor2PIL(decoded_tweedies[i]).resize(target_size)
                     collage_img.paste(decoded_latents_img, (i * target_size[0], 0))
                     collage_img.paste(decoded_tweedies_img, (i * target_size[0], target_size[1]))
-                collage_img.save(os.path.join(save_dir, f"{cur_mcmc_step:05d}.png"))
+                collage_img.save(os.path.join(save_dir, "mcmc_tweedies", f"{cur_mcmc_step:05d}.png"))
             return grad_reward, reward_val
 
-        return partial(grad_reward_func, pipe=pipe, save_tweedies=self.cfg.save_mcmc, save_dir=self.cfg.save_mcmc_dir, reno_reg=self.cfg.reno_reg)
+        return partial(grad_reward_func, pipe=pipe, save_tweedies=self.cfg.save_tweedies, save_dir=self.cfg.misc_dir)
     
     def __call__(self, init_position, reward_model, pipe):
         samples, rewards = self.run(init_position, self.get_grad_reward_func(reward_model, pipe))

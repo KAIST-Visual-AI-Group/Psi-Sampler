@@ -51,7 +51,7 @@ def main(main_cfg, CFG, args, task_name):
         reward_model.cfg.grad_const_scale = CFG.grad_const_scale
         reward_model.cfg.grad_norm = CFG.grad_norm
         
-        # pCNL
+        # MCMC
         latents = pipe.prepare_latents(height=main_cfg.height, width=main_cfg.width, reward_model=reward_model, generator=generator)
 
         reward_model.cfg.grad_norm = CFG.smc_grad_norm
@@ -120,15 +120,3 @@ if __name__ == "__main__":
     if args.save_reward:
         os.makedirs(os.path.join(args.save_dir, "img_rewards"), exist_ok=True)
     main(main_cfg, CFG, args, task_name)
-
-
-# Example Commands
-
-# 1. Layout-to-Image
-# python main.py --tag layout_to_image --config ./config/layout_to_image.yaml --data_path ./data/layout_to_image.json --save_dir ./results_layout_to_image --save_reward --save_tweedies
-
-# 2. Aesthetic Preference
-# python main.py --tag aesthetic --config ./config/aesthetic.yaml --data_path ./data/aesthetic.txt --save_dir ./results_aesthetic --save_reward --save_tweedies
-
-# 3. Quantity-Aware Image Generation
-# TODO

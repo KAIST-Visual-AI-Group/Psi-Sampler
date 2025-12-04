@@ -24,7 +24,7 @@ guidance_scale: 3.5 # Not used for FLUX.1-Schnell
 original_scheduler: linear
 new_scheduler: vp
 sample_method: sde
-diffuse_coeff_func: rev_original    # [rev_original]
+diffuse_coeff_func: rev_original   
 diffusion_norm: 1.0
 
 save_vram: true
@@ -40,7 +40,9 @@ step_size: 0.5
 num_mcmc_steps: 50
 num_chains: 5
 burn_in: 50
-custom_call_function_name: chains_thinning 
+custom_call_function_name: chains_thinning
+grad_norm: null
+grad_const_scale: 1.5
 
 # pCNL Config
 rho: null
@@ -71,5 +73,3 @@ grad_scale: 1.0
 #####################################################
 
 decode_to_unnormalized: false
-grad_norm: null
-grad_const_scale: 1.5

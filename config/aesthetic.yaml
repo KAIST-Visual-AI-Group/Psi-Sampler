@@ -40,7 +40,9 @@ step_size: 0.5
 num_mcmc_steps: 25
 num_chains: 5
 burn_in: 25
-custom_call_function_name: chains_thinning 
+custom_call_function_name: chains_thinning
+grad_norm: 0.0004
+grad_const_scale: null
 
 # pCNL Config
 rho: null
@@ -71,5 +73,3 @@ grad_scale: 1.0
 #####################################################
 
 decode_to_unnormalized: false
-grad_norm: 0.0004
-grad_const_scale: null
